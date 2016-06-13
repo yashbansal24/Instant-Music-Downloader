@@ -1,0 +1,8 @@
+c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\bin\Debug\Instant Music Downloader.exe
+c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\bin\Debug\Instant Music Downloader.pdb
+c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\obj\x86\Debug\Instant_Music_Downloader.Form1.resources
+c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\obj\x86\Debug\Instant_Music_Downloader.Properties.Resources.resources
+c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\obj\x86\Debug\Instant Music Downloader.csproj.GenerateResource.Cache
+c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\obj\x86\Debug\Instant Music Downloader.exe
+c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\obj\x86\Debug\Instant Music Downloader.pdb
+c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\bin\Debug\Instant Music Downloader.exe.config
