@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instant Music Downloader", "Instant Music Downloader\Instant Music Downloader.csproj", "{68C9756E-B34A-400E-A687-8A3D73B957B9}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instant_Music_Downloader", "Instant_Music_Downloader\Instant_Music_Downloader.vdproj", "{3864CB4A-0836-4F93-B9DA-AAFD69B79DC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,8 @@ Global
 		{68C9756E-B34A-400E-A687-8A3D73B957B9}.Debug|x86.Build.0 = Debug|x86
 		{68C9756E-B34A-400E-A687-8A3D73B957B9}.Release|x86.ActiveCfg = Release|x86
 		{68C9756E-B34A-400E-A687-8A3D73B957B9}.Release|x86.Build.0 = Release|x86
+		{3864CB4A-0836-4F93-B9DA-AAFD69B79DC7}.Debug|x86.ActiveCfg = Debug
+		{3864CB4A-0836-4F93-B9DA-AAFD69B79DC7}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

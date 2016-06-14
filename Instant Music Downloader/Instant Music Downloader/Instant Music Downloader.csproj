@@ -56,6 +56,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\x86\Debug\Instant_Music_Downloader.Form1.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Instant_Music_Downloader.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -67,6 +69,13 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
+    <None Include="bin\Debug\Instant Music Downloader.exe.config" />
+    <None Include="bin\Debug\Instant Music Downloader.vshost.exe.config" />
+    <None Include="bin\Debug\Instant Music Downloader.vshost.exe.manifest" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Debug\Instant Music Downloader.csproj.GenerateResource.Cache" />
+    <None Include="obj\x86\Debug\Instant Music Downloader.csprojResolveAssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,6 +88,15 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Instant Music Downloader.exe" />
+    <Content Include="bin\Debug\Instant Music Downloader.pdb" />
+    <Content Include="bin\Debug\Instant Music Downloader.vshost.exe" />
+    <Content Include="obj\x86\Debug\Instant Music Downloader.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\Instant Music Downloader.exe" />
+    <Content Include="obj\x86\Debug\Instant Music Downloader.pdb" />
+    <Content Include="obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

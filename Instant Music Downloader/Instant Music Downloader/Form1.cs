@@ -14,7 +14,7 @@ namespace Instant_Music_Downloader
     {
         static int count = 0;
         WebClient client, webclient;
-        String dest;
+        String not_done,dest,global_song;
         public Form1()
         {
             InitializeComponent();
@@ -22,6 +22,7 @@ namespace Instant_Music_Downloader
 
         private void button1_Click(object sender, EventArgs e)
         {
+            label1.Text = "Starting Download ... Please Wait ...";
             FolderBrowserDialog fbd = new FolderBrowserDialog();
             if (fbd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
@@ -32,12 +33,8 @@ namespace Instant_Music_Downloader
             string[] lines = textBox1.Text.Split(sep, StringSplitOptions.RemoveEmptyEntries);
             for (int i = 0; i < lines.Length; i++)
             {
-
                 x = download(lines[i]);
-
-
             }
-            // label1.Text = "Downloaded all songs";
 
         }
 
@@ -47,8 +44,9 @@ namespace Instant_Music_Downloader
         }
         private int download(string song)
         {
-            label1.Text = "Starting Download ... Please Wait ...";
+            
             string name = song;
+            global_song = name;
             song = query(song);
             using (webclient = new WebClient())
             {
@@ -76,6 +74,13 @@ namespace Instant_Music_Downloader
 
         private void client_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
         {
+            if (e.ProgressPercentage <= 1 && e.TotalBytesToReceive<=1024*1024)
+            {
+                e.ProgressPercenge = 100;
+                count--;
+                not_done[not_done.Length] = global_song;
+            }
+            
             progressBar1.Value = e.ProgressPercentage;
             label1.Text = "Downloading";
         }

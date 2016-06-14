@@ -6,3 +6,4 @@ c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Ins
 c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\obj\x86\Debug\Instant Music Downloader.exe
 c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\obj\x86\Debug\Instant Music Downloader.pdb
 c:\users\yash\documents\visual studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\bin\Debug\Instant Music Downloader.exe.config
+C:\Users\Yash\Documents\Visual Studio 2010\Projects\Instant Music Downloader\Instant Music Downloader\obj\x86\Debug\Instant Music Downloader.csprojResolveAssemblyReference.cache
